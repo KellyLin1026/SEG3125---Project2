@@ -1,0 +1,413 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family : sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-color: #f1f1f1;
+    background-image: linear-gradient(to right,#e9ebf7,#e9ebf7);
+    padding: 0 !important;
+    overflow: auto;
+}
+
+.navbar a
+{
+    float: left;
+    color: #000000;
+    padding: 16px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 7px;
+    padding-right: 16px;
+}
+/*banner section/*/
+#banner{
+    padding: 30;
+    text-align: center;
+    background-image: url(salon7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+.promo-title::before{
+    content: "";
+    width: 500px;
+    height: 2px;
+    background-color: #add1ef;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+.promo-text{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #fdf7f8;
+    width: fit-content;
+    margin: auto;
+}
+#banner .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 25;
+    padding: 4px 30px;
+    margin: 20px;
+}
+/*-----teams section-----*/
+#teams{
+    padding: 40px 0;
+    overflow: auto;
+    background-color: #fdf7f8;
+}
+.teams{
+    padding: 8px ;
+    padding-bottom: 40px;
+    font-size: 17px;
+}
+ .teams h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+} 
+.teams h4{
+    padding : 5px ;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.teams h4::before{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: #add1ef;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    transform: translateY(45px);
+}
+#teams .btn-primary{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    padding: 4px 24px;
+}
+.teams img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+/*-----services section-----*/
+#services{
+    padding: 40px 0;
+    overflow: auto;
+}
+.services{
+    padding: 20px ;
+    padding-bottom: 40px;
+}
+.advisor img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+}
+.advisor{
+    display: flex;
+    padding:30px;
+}
+.advisor h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.advisor p{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    width: 700px;
+}
+.advisor h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px;
+    padding-bottom: 10px;
+}
+.services h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+}
+
+#services .btn-primary{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 20;
+    padding: 4px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#services {
+    padding:  5px 10px;
+    font-size: 20px;
+    background-color: #fdf7f8;
+    font-size: 30px;
+}
+.article img{
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+    display: block;
+}
+.article{
+    display: flex;
+    padding:30px;
+}
+.article h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.article p{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    width: 700px;
+}
+/*-----profile section-----*/
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+    display: block;
+}
+.profile{
+    display: flex;
+    padding:30px;
+}
+.profile h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.profile h4{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 65px;
+    padding-bottom: 10px;
+    padding-top: 7%;
+}
+.Details h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+.Details p{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+.Details h4{
+    background-color: #e9ebf7;
+    
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/*-----match section-----*/
+#match{
+    padding: 40px 0;
+    overflow: auto;
+}
+.match{
+    padding: 10px ;
+    padding-bottom: 40px;
+}
+#match {
+    padding:  5px 10px;
+    font-size: 20px;
+    background-color: #fdf7f8;
+    font-size: 30px;
+}
+.match h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;   
+    margin: auto;
+}
+#match .mat{
+    margin: auto;
+    text-align: center;
+    background-color: #e9ebf7;
+}
+#match .mat2{
+    margin: auto;
+    text-align: center;
+}
+#match .btn-primary{
+    background-color: #e9ebf7;
+    border-color: #e9ebf7;
+    color: #000000;
+    font-size: 25;
+    font-weight: bold;
+    padding: 40px 80px;
+}
+#match .btn-primary2{
+        background-color: #fbd3c5;
+        border-color: #fbd3c5;
+        color: #000000;
+        border-radius: 20px;
+        font-size: 25;
+        padding: 4px 44px;
+        margin-bottom: 20px;
+}
+
+#match .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 25;
+    padding: 4px 44px;
+    margin: 20px;
+}
+.match p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-----booking section-----*/
+#booking{
+    overflow: auto;
+}
+#booking h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+.booking{
+    padding: 40px ;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: #fdf7f8;
+    
+}
+#booking .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 20;
+    padding: 4px 30px;
+    margin-bottom: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+#booking .text{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+#booking .text2{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+#booking .book{
+    padding: 5px;
+    font-size: 20px;
+}
+/*-----Confirm section-----*/
+#confirm{
+    padding-top: 40px;
+    overflow: auto;
+}
+
+#confirm .confirm-title{
+    padding: 40px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #fdf7f8;
+}
+.confirm-title::before{
+    content: "";
+    width: 500px;
+    height: 2px;
+    background-color: #add1ef;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+#confirm .confirm-content{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fdf7f8;
+}
+#confirm .submit-button{
+    background-color: #fbd3c5;
+    border-color: #fbd3c5;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 25;
+    padding: 4px 20px;
+    margin: 20px;
+}
