@@ -188,12 +188,19 @@ body{
     margin-top: 10px;
     font-weight: bold;
 }
+#serevices .book{
+    padding: 5px;
+    font-size: 20px;
+}
 
 #services {
     padding:  5px 10px;
     font-size: 20px;
     background-color: #fdf7f8;
-    font-size: 30px;
+}
+#services .form-popup {
+    display: none;
+    position:relative;
 }
 .article img{
     width: 90px;

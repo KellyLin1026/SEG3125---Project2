@@ -97,8 +97,35 @@
                 </h4>
             </div>
             <div class = "services">
-                <a type="button"  class="btn btn-primary" >Add a comment</a>
+                <button class="btn btn-primary" onclick="openForm()">Add a comment</button>
+                <div class="form-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h4>Ranking Stage</h4>  
+                    <select class = "book" >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                    <h4>Add a comment</h4>            
+                    <form>
+                      <textarea rows="5" cols="50" class= "book" ></textarea>
+                    </form>
+                    <button type="submit" class="btn" onclick="closeForm()">Submit</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </form>
+                </div>
             </div>
         </section>
+        <script>
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+          
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+          </script>
     </body>
 </html>
